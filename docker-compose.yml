@@ -11,7 +11,7 @@ services:
     environment:
       - MYSQL_DATABASE=ogp
       - MYSQL_ROOT_PASSWORD=pass
-      - MYSQL_USER=default
+      - MYSQL_USER=root
       - MYSQL_PASSWORD=password
       - TZ=Asia/Tokyo
     ports:
